@@ -35,13 +35,13 @@ def read(fname):
 
 
 setup(
-    name="marshmallow-sqlalchemy",
+    name="toasted-marshmallow-sqlalchemy",
     version=find_version("src/marshmallow_sqlalchemy/__init__.py"),
-    description="SQLAlchemy integration with the marshmallow (de)serialization library",
+    description="SQLAlchemy integration with the toastedmarshmallow (de)serialization library",
     long_description=read("README.rst"),
-    author="Steven Loria",
-    author_email="sloria1@gmail.com",
-    url="https://github.com/marshmallow-code/marshmallow-sqlalchemy",
+    author="Daniel Guddemi",
+    author_email="danguddmi@gmail.com",
+    url="https://github.com/chilipot/toasted-marshmallow-sqlalchemy",
     packages=find_packages("src"),
     package_dir={"": "src"},
     include_package_data=True,
@@ -50,7 +50,7 @@ setup(
     extras_require=EXTRAS_REQUIRE,
     license="MIT",
     zip_safe=False,
-    keywords="sqlalchemy marshmallow",
+    keywords="sqlalchemy marshmallow toastedmarshmallow",
     classifiers=[
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
@@ -61,7 +61,7 @@ setup(
     test_suite="tests",
     project_urls={
         "Changelog": "https://marshmallow-sqlalchemy.readthedocs.io/en/latest/changelog.html",
-        "Issues": "https://github.com/marshmallow-code/marshmallow-sqlalchemy/issues",
+        "Issues": "https://github.com/chilipot/toasted-marshmallow-sqlalchemy/issues",
         "Funding": "https://opencollective.com/marshmallow",
     },
 )
