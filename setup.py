@@ -35,7 +35,7 @@ def read(fname):
 
 
 setup(
-    name="marshmallow-sqlalchemy",
+    name="toasted-marshmallow-sqlalchemy",
     version=find_version("src/marshmallow_sqlalchemy/__init__.py"),
     description="SQLAlchemy integration with the toastedmarshmallow (de)serialization library",
     long_description=read("README.rst"),
